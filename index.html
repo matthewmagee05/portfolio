@@ -1,0 +1,270 @@
+
+<!--Progress bar info:
+  http://getbootstrap.com/components/ 
+     Social media icons:
+     hhttp://stackoverflow.com/questions/31584294/bootstrap-social-media-buttons
+     Collapsible bar:
+     http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_collapse&stacked=h
+     -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Matthew Magee-Portfolio</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="row">
+                    <nav class="navbar navbar-inverse">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <a  href="#" class="navbar-brand nav-item nav-link active clickable" data-toggle="modal" data-target="#aboutMe">About<span class="sr-only">(current)</span></a>
+                                <a href="../JavaScriptCourse/frontend-nanodegree-resume/index.html" class="navbar-brand nav-item nav-link clickable" >Resum&eacute;</a>
+                                <a href="#" class=" navbar-brand nav-item nav-link clickable" data-toggle="modal" data-target="#project2">Project 1</a>
+                                <a href="#" class="navbar-brand nav-item nav-link last-link clickable" data-toggle="modal" data-target="#project3">Project 2</a>
+                            </div>
+                        </div>
+                    </nav>
+            </header>
+            <section>
+              <div class="row">
+                  <div class="col-md-12">
+                      <hr>
+                  </div>
+              </div>
+              <div class="row" >
+                  <div class="col-md-6">
+                      <img class="title-logo" src="images/profile.jpeg" alt="Profile image" >
+                  </div>
+                  <div class="col-md-6 text-right text-uppercase  ">
+                      <h1 class="title-super text-thin" data-toggle="modal" data-target="#aboutMe" >Matthew Magee</h1>
+                      <h4>Front-end Developer</h4>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <hr>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <img class="img-responsive" src="images/code.jpeg" alt="Image of coding on computer">
+                  </div>
+              </div>
+          </section>
+          <section>
+              <div class="row">
+                  <div class="col-md-12">
+                      <h2 class="text-muted">Featured Work</h2>
+                  </div>
+              </div>
+              <div class="row ">
+                  <div class="col-md-4">
+                      <img class="img-responsive clickable" src="images/myResume.png" alt="Placeholder1" data-toggle="modal" data-target="#project1">
+                      <h3>Resum&eacute;</h3>
+                      <h4><a href="../JavaScriptCourse/frontend-nanodegree-resume/index.html">Check it out!</a></h4>
+                  </div>
+                  <div class="col-md-4">
+                      <img class="img-responsive clickable" src="images/watch.jpeg" alt="Placeholder2" data-toggle="modal" data-target="#project2">
+                      <h3>Project 1</h3>
+                      <h4><a href="#">Project Link</a></h4>
+                  </div>
+                  <div class="col-md-4">
+                      <img class="img-responsive clickable" src="images/phone.jpeg" alt="Placeholder3" data-toggle="modal" data-target="#project3">
+                      <h3>Project 2</h3>
+                      <h4><a href="#">Project Link</a></h4>
+                  </div>
+              </div>
+          </section>
+          <footer class="footer-distributed">
+
+          <div class="footer-left">
+            
+              <p class="bottomContact"> mobile: 907-414-3717 </p>
+             <p class="bottomContact"> email: matthewmagee05@gmail.com </p>
+             <p class="bottomContact"> location: San Diego </p>
+
+            <div class="footer-icons">
+              <a href="https://twitter.com/matthewmagee05" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/matthew-magee-706942ab" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/matthewmagee05" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+            <p class="footer-company-name"><br>Matthew Magee &copy; 2016</p>
+          </div>
+
+          <div class="footer-right">
+
+            <p>Let's Connect</p>
+
+            <form  id="gform" action="https://script.google.com/macros/s/AKfycbygM4uMVVmcRbBcREcD9qSb7_3lsM5Nl4YrP9egbNCs-C3qt09S/exec" method="post" >
+              <input type="text" name="email" placeholder="Email" />
+              <textarea name="message" placeholder="Message"></textarea>
+              <input type="submit" value="Submit">
+
+            </form>
+            <div style="display:none;" id="thankyou_message">
+                <h2><em>Thanks</em> for contacting me!
+                    I will get back to you soon!</h2>
+            </div>
+
+          </div>
+          <script data-cfasync="false" type="text/javascript"
+      src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+        </footer>
+        </div>
+    </div>
+      <!-- Modal Resume-->
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Resum&eacute;</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="images/myResume.png" alt="image of my Resum&eacute;">
+              <p>
+              
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Project 2 -->
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel1">Project 1</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="images/watch.jpeg" alt="image of an apple watch">
+               <p>
+                Coming Soon!
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal  Project 3-->
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" id="myModalLabel2">Project 3</h4>
+                  </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/phone.jpeg" alt="image of a smartphone">
+                   <p>
+                    Coming Soon!
+                  </p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+              </div>
+          </div>
+      </div>
+       <!-- Modal Bio -->
+      <div class="modal fade" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" id="myModalLabel3">About Me</h4>
+                  </div>
+                  <div class="modal-body">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <img class="img-responsive" src="images/profile.jpeg" alt="profile image">
+                      </div>
+                      <div class="col-md-6">
+                          <p>My name is Matthew Magee and I am a full-time student at Coleman University. When I'm not studying I'm learning to create dynamic and beautiful web pages, or coding whatever interesting project grabs my attention (currently augmented reality).</p>
+
+                          <p> I have been at school for nearly a year, and have been loving every minute of it. I am a tinkerer, entrepreneur, developer, and overall thinker. Check out some of my projects below to see what I've been up to lately.</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <h2>Skills</h2>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-warning progress-bar-striped active java" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                  <p>Java</p>
+                              </div>
+                          </div>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-danger progress-bar-striped active html5" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                  <p>HTML5</p>
+                              </div>
+                          </div>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-success progress-bar-striped active css3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                  <p>CSS3</p>
+                              </div>
+                          </div>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-info progress-bar-striped active javascript" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                  <p>JavaScript</p>
+                              </div>
+                          </div>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-warning progress-bar-striped active csharp" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                  <p>C#</p>
+                              </div>
+                          </div>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-danger progress-bar-striped active git" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                  <p>Git</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <ul class="list-inline">
+                              <li><a href="https://twitter.com/matthewmagee05" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter fa-3x"></i></a></li>
+                              <li><a href="https://github.com/matthewmagee05" target="_blank" class="icoGithub" title="Github +"><i class="fa fa-github fa-3x"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/matthew-magee-706942ab" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin fa-3x "></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+

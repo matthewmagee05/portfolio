@@ -1,0 +1,124 @@
+body {
+	
+	font-family: "Lato", sans-serif;
+	color: #7eb1dc;
+	font-weight: 300;
+	background-color: #094c83;
+}
+
+.clickable {
+
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+
+	.nav-item {
+		font-size: 28px;
+		padding-right: 100px;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+
+	.nav-item {
+		font-size: 24px;
+		padding-right: 50px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+
+	.nav-item {
+		font-size: 20px;
+		padding-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+
+   .nav-item { 
+   		font-size: 16px; 
+   		padding-right: 40px;
+   	}
+}
+
+.list-inline li {
+
+	padding-right: 20px;
+}
+
+.text-muted {
+
+	color: #7eb1dc;
+}
+
+.text-thin {
+
+	font-weight: 300;
+}
+
+
+.title-logo {
+
+	margin-top: 20px;
+	width: 35%;
+	border-radius: 50%;
+}
+
+
+.title-super {
+	font-size: 50px;
+}
+
+hr {
+
+	border-color: #337bb7;
+}
+
+.bar {
+
+	margin-bottom: 20px;
+}
+
+.nav-item {
+
+	color: #7eb1dc;
+}
+
+a:visited {
+
+	color: #7eb1dc;
+}
+
+.java {
+
+	width: 60%;
+}
+.html5 {
+
+	width: 75%;
+}
+.css3 {
+
+	width: 75%;
+}
+.javascript {
+
+	width: 40%;
+}
+
+.csharp {
+
+	width: 60%;
+}
+
+.git {
+
+	width: 50%;
+}
+
+
+
